@@ -3,7 +3,7 @@ let cards = document.querySelector(".cards");
 let articlesGlobe;
 let button = document.querySelector("button");
 let search = document.querySelector("input");
-let url = "https://newsapi.org/v2/everything?q=india&from=2024-04-30&sortBy=publishedAt&apiKey=79eae53414dd4284ab3e47b23b300ee4";
+let url = "https://newsapi.org/v2/everything?q=india&from=2024-05-05&sortBy=publishedAt&apiKey=1f7126e2722548449dabe6f733528847";
 let categories = document.querySelector(".categ");
 
 
@@ -79,7 +79,7 @@ let refresh = (event) => {
     } else {
         refSearch = "india+" + search.value;
     }
-    url = `https://newsapi.org/v2/everything?q=${refSearch}&from=2024-04-30&sortBy=publishedAt&apiKey=79eae53414dd4284ab3e47b23b300ee4`;
+    url = `https://newsapi.org/v2/everything?q=${refSearch}&from=2024-05-05&sortBy=publishedAt&apiKey=1f7126e2722548449dabe6f733528847`;
     search.value = "";
     urlSearch();
     setTimeout(printCards, 1000);
