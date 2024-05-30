@@ -1,0 +1,111 @@
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #343A40;
+    padding: 8px 16px;
+    box-sizing: content-box;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+}
+
+.webName h1 {
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    margin-right: 1rem;
+}
+
+.categ a {
+    text-decoration: none;
+    color: #ffffff80;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.search input {
+    width: 180px;
+    height: 26px;
+    border: none;
+    border-radius: 5px;
+    padding: 6px 12px;
+    font-size: 16px;
+}
+
+.search button {
+    height: 37px;
+    width: 72px;
+    background-color: transparent;
+    border: 1px solid #28a745;
+    color: #28a745;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.header {
+    text-align: center;
+    margin: 10px 0 20px 0;
+}
+
+.header h2 {
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.cards {
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap
+}
+
+.card {
+    border: 0.5px solid rgba(0, 0, 0, 0.16);
+    border-radius: 5px;
+    margin: 0 30px 30px 30px;
+    height: fit-content;
+}
+
+.cards img {
+    width: 346.4px;
+    border-radius: 5px 5px 0 0;
+}
+
+.cards .card-body {
+    width: 306.4px;
+    padding: 20px;
+}
+
+.cards .card-body .card-title {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0 0 12px 0;
+}
+
+.cards .card-body .card-text {
+    margin: 0 0 16px 0;
+}
+
+.cards .card-body .card-age {
+    font-size: 12.8px;
+    margin: 0 0 12px 0;
+    opacity: 0.85;
+}
+
+.categ a:hover {
+    color: white;
+}
+
+button:hover {
+    background-color: #28a745;
+    color: white;
+}
